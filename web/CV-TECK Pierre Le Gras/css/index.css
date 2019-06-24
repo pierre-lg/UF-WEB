@@ -1,0 +1,85 @@
+div.entry {
+    display: inline
+}
+
+hr {
+    border: 3px solid #784693;
+}
+
+
+header nav {
+    font-family: 'Didact Gothic', sans-serif;
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+
+header nav ul {
+    height: 100%;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    display: inline-flex; 
+    align-items:center; */
+    height: 100%;
+    padding: 0 20px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #00000;
+}
+
+header nav ul li a {
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.2s linear;
+}
+
+header nav ul li a:hover {
+    color: #800080;
+    transition: all linear;
+
+}
+
+header nav div.right {
+    position: relative;
+    height: 100%;
+    float: right;
+}
+
+header nav div.right img {
+    height: 100%;
+}
+
+header nav div.right .login {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #CFD8DC99;
+    padding: 10px 20px;
+}
+
+header nav div.right:not( :hover ) .login {
+    display: none;
+}
+
+
+html {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+footer {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    background-color: #3D4141;
+    color: #D5D2D2;
+    border-top: 5px solid #FF8C00;
+    border-bottom: 5px solid #FF8C00;
